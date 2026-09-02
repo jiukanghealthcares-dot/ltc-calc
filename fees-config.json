@@ -1,0 +1,83 @@
+{
+  "version": "2025",
+  "updatedAt": "2025-01-01",
+  "dayCareRates": {
+    "2": { "half": 340, "full": 675 },
+    "3": { "half": 420, "full": 840 },
+    "4": { "half": 460, "full": 920 },
+    "5": { "half": 525, "full": 1045 },
+    "6": { "half": 565, "full": 1130 },
+    "7": { "half": 605, "full": 1210 },
+    "8": { "half": 645, "full": 1285 }
+  },
+  "monthlyLimits": {
+    "2": 10020,
+    "3": 15460,
+    "4": 18580,
+    "5": 24100,
+    "6": 28070,
+    "7": 32090,
+    "8": 36180
+  },
+  "respiteLimits": {
+    "2": 32340,
+    "3": 32340,
+    "4": 32340,
+    "5": 32340,
+    "6": 32340,
+    "7": 48510,
+    "8": 48510
+  },
+  "serviceItems": [
+    { "code": "BA01", "name": "基本身體清潔", "price": 260 },
+    { "code": "BA02", "name": "基本日常照顧(30分鐘)", "price": 195 },
+    { "code": "BA03", "name": "測量生命徵象", "price": 35 },
+    { "code": "BA04", "name": "協助進食或管灌餵食", "price": 130 },
+    { "code": "BA05", "name": "餐食照顧", "price": 310 },
+    { "code": "BA07", "name": "協助沐浴及洗頭", "price": 325 },
+    { "code": "BA08", "name": "協助沐浴及洗頭", "price": 500 },
+    { "code": "BA10", "name": "翻身拍背", "price": 155 },
+    { "code": "BA11", "name": "肢體關節活動", "price": 195 },
+    { "code": "BA12", "name": "協助上下樓梯", "price": 130 },
+    { "code": "BA13", "name": "陪同外出(30分鐘)", "price": 195 },
+    { "code": "BA14", "name": "陪同就醫(1.5小時)", "price": 685 },
+    { "code": "BA15-1", "name": "家務協助(30分鐘)", "price": 195 },
+    {
+      "code": "BA15-2",
+      "name": "家務協助(共用)",
+      "price": 195,
+      "fixedCopay": { "general": 112, "midLow": 101, "low": 97 }
+    },
+    { "code": "BA16-1", "name": "代購/代領/代送", "price": 130 },
+    {
+      "code": "BA16-2",
+      "name": "代購/代領/代送(共用)",
+      "price": 130,
+      "fixedCopay": { "general": 75, "midLow": 68, "low": 65 }
+    },
+    { "code": "BA17a", "name": "人工氣道管內分泌物抽吸", "price": 75 },
+    { "code": "BA17b", "name": "口腔內分泌物抽吸", "price": 65 },
+    { "code": "BA17c", "name": "尿管及鼻胃管之清潔與固定", "price": 50 },
+    { "code": "BA17d1", "name": "血糖機驗血糖", "price": 50 },
+    { "code": "BA17d2", "name": "甘油球通便", "price": 50 },
+    { "code": "BA17e", "name": "依指示置入藥盒", "price": 50 },
+    { "code": "BA18", "name": "安全看視(30分鐘)", "price": 200 },
+    { "code": "BA20", "name": "陪伴服務(30分鐘)", "price": 175 },
+    { "code": "BA22", "name": "巡視服務(3次)", "price": 130 },
+    { "code": "BA23", "name": "協助洗頭", "price": 200 },
+    { "code": "BA24", "name": "協助排泄", "price": 220 }
+  ],
+  "otherItems": [
+    { "code": "BD01", "name": "社區式沐浴服務", "price": 200, "unit": "次" },
+    { "code": "BD02", "name": "社區式晚餐服務", "price": 150, "unit": "次" },
+    { "code": "BD03", "name": "交通接送服務 (10公里內)", "price": 115, "unit": "趟" },
+    { "code": "GA03", "name": "日間照護喘息服務(全日)", "price": 1250, "unit": "次" },
+    { "code": "GA04", "name": "日間照護喘息服務(半日)", "price": 625, "unit": "次" },
+    { "code": "GA06", "name": "夜間喘息服務", "price": 2000, "unit": "次" }
+  ],
+  "copayRates": {
+    "general": { "label": "一般戶", "rate": 0.16, "description": "自付 16%" },
+    "midLow": { "label": "中低收入戶", "rate": 0.05, "description": "自付 5%" },
+    "low": { "label": "低收入戶", "rate": 0.0, "description": "自付 0%" }
+  }
+}
