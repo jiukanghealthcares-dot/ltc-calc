@@ -396,7 +396,7 @@
               <section className="bg-white rounded-xl shadow-sm border border-slate-200 p-5 space-y-6">
                 <div>
                   <h2 className="font-bold text-slate-800 mb-1">照顧及專業服務額度（每月）</h2>
-                  <p className="text-xs text-slate-500 mb-4">適用日間照護、居家照顧（B、C 碼）</p>
+                  <p className="text-xs text-slate-500 mb-4">適用日間照護、居家照顧、其他服務（B、C 碼及交通、沐浴等）</p>
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                     {CARE_LEVELS.map(lvl => (
                       <div key={lvl}>
@@ -570,7 +570,7 @@
                 <div className="flex justify-between items-center mb-4">
                   <div>
                     <h2 className="font-bold text-slate-800">其他服務項目</h2>
-                    <p className="text-xs text-slate-500 mt-1">交通、沐浴、社區服務等（非 G 碼）</p>
+                    <p className="text-xs text-slate-500 mt-1">交通、沐浴、社區服務等（計入每月照顧額度）</p>
                   </div>
                   <button
                     onClick={() => updateConfig({
